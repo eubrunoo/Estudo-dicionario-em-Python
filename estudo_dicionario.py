@@ -25,8 +25,5 @@ for chave in chaves_verificar:
     if not dados_usuario[0][chave].isalpha():
         print(f'O dado - {dados_usuario[0][chave]} - fornecido não é composto apenas por letras.')
 
-if not dados_usuario[0]['Nome']['Cidade']['Profissão'].isalpha():
-    print('Verifique se não utilizou valores inteiros em perguntas não referentes a idade.')
-
 limpeza()
 print(f'A idade de {dados_usuario[0]["Nome"]} é {dados_usuario[0]["Idade"]}\n')
